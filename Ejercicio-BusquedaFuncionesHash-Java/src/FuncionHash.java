@@ -90,12 +90,12 @@ public class FuncionHash {
 
 	public static void main(String[] args) {
 		FuncionHash funcion = new FuncionHash(8);
-		String[] elementos = { "25", "14", "96", "300", "1", "12", "8", "15" };
+		String[] elementos= {"25", "14", "96", "300", "1", "12", "8", "15"};
 		funcion.funcionHash(elementos, funcion.arreglo);
 		funcion.mostrar();
 		
 		//Buscar
-		String buscarElemento= funcion.buscarClave("1");
+		String buscarElemento= funcion.buscarClave("12");
 		if(buscarElemento == null) {
 			System.out.print("\n Elemento no encontrado");
 		}
